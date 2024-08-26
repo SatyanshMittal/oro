@@ -1,8 +1,26 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Jost } from "next/font/google";
+import localfont from "next/font/local"
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"],
+  variable:"--font-inter",
+
+ });
+const jost = Jost({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-jost",
+  weight: "400"
+})
+
+const grotesk = localfont({
+  src: [{
+    path: '../public/fonts/SharpGrotesk-SemiBold15.otf',
+    weight: "500"
+  }],
+  variable: '--font-grotesk'
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.variable} ${jost.variable} ${grotesk.variable}`}>{children}</body>
     </html>
   );
 }
