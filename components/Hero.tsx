@@ -1,10 +1,13 @@
 import React from "react";
 import Logo from "./RoundLogo";
 import Button from "./Button"
-
+import Navbar from "./Navbar";
 export default function hero() {
   return (
-    <div className="w-full  h-[90vh] flex flex-col justify-center text-white items-center">
+    <div>
+      <Navbar/>
+    <div className="w-full  h-[75vh] flex flex-col justify-center text-white items-center">
+      
       <div className="flex flex-col justify-center items-center gap-4  ">
         <Logo />
 
@@ -25,6 +28,7 @@ export default function hero() {
         <div className="flex gap-6 mt-5 items-center"><Button text={"Why ORO?"}/>
         <p className="underline font-jost  text-[22px] text-white/90 ">Security</p></div>
       </div>
+    </div>
     </div>
   );
 }
