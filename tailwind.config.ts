@@ -16,7 +16,9 @@ const config: Config = {
       fontFamily: {
         jost: ['var(--font-jost)'],
         inter: ['var(--font-inter)'],
-        grotesk: ['var(--font-grotesk)'],
+        groteskk: ['var(--font-grotesk)'],
+        grotesk: ['var(--font-schgrotesk)'],
+        
       }
     },
   },

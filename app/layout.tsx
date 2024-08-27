@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Inter, Jost } from "next/font/google";
+import { Inter, Jost, Schibsted_Grotesk } from "next/font/google";
 import localfont from "next/font/local"
+import Footer from "@/components/Footer";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"],
@@ -14,9 +15,16 @@ const jost = Jost({
   weight: "400"
 })
 
+const schgrotesk = Schibsted_Grotesk({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-schgrotesk",
+  weight: "600"
+})
+
 const grotesk = localfont({
   src: [{
-    path: '../public/fonts/SharpGrotesk-SemiBold15.otf',
+    path: '../public/fonts/SharpGrotesk-SemiBold10.otf',
     weight: "500"
   }],
   variable: '--font-grotesk'
@@ -34,7 +42,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${jost.variable} ${grotesk.variable}`}>{children}</body>
+      <body className={`${inter.variable} ${jost.variable} ${grotesk.variable} ${schgrotesk.variable}`}>{children}
+      <Footer/></body>
     </html>
   );
 }
