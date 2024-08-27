@@ -19,7 +19,9 @@ export default function Navbar() {
         <p>Contact Us</p>
       </div>
 
-      <Button text={"Get Early Access"}/>
+      <div className="px-8  font-jost py-2 rounded-full bg-white text-black bg-gradient-to-r from-[#CFAF6C] to-[#F7DA9C] text-lg">
+      Get Early Access
+    </div>
 
       
     </div>
