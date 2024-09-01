@@ -10,29 +10,28 @@ export default function BenefitCard() {
           <span className="text-[#CFAF6C]">generates yields</span>
         </p>
         <p className="text-lg font-jost leading-5 text-[#060606] opacity-50">
-          Zero storage fee, earn yields 12% p.a. paid in Gold
+        Earn up-to 4% p.a. by staking your gold on ORO
         </p>
       </div>
       <div className="px-6 pb-14 py-7 min-w-[360px] bg-gradient-to-r from-[#CFAF6C] to-[#F7DA9C] rounded-xl text-black space-y-5">
         <p className="italic text-black text-base font-semibold">EASY TO USE</p>
         <p className="text-3xl font-grotesk  leading-7 font-semibold pt-5">
           Get started with
-          <br /> as low as $1{" "}
+          <br /> as low as 1USDC{" "}
         </p>
         <p className="text-lg leading-5 font-jost text-[#060606] opacity-50">
-          Get instant liquidity & 24X7 availability with De-Fi integrations
-        </p>
+        Seamless investing. Earn rewards as you save        </p>
       </div>
       <div className="px-6 pb-14 py-7 min-w-[360px] bg-white rounded-xl text-black space-y-5">
         <p className="italic text-black text-base font-semibold">
           EASY TO REEDEM
         </p>
         <p className="text-3xl font-grotesk leading-7 font-semibold pt-5">
-          Got you covered with <br />{" "}
-          <span className="text-[#CFAF6C]">Instant Liquidity</span>
+        Instant Liquidity & <br />{" "}
+          <span className="text-[#CFAF6C]">De-Fi Composable</span>
         </p>
         <p className="text-lg leading-5 font-jost  text-[#060606] opacity-50 ">
-          Get access to instant liquidity, low physical redemption amount of $70
+        24X7 Trading. Redeemable for USDC or physical gold
         </p>
       </div>
     </div>
