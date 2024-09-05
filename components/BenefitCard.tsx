@@ -2,7 +2,7 @@ import React from "react";
 
 export default function BenefitCard() {
   return (
-    <div className="flex gap-4  w-full">
+    <div className="flex gap-4 flex-col sm:flex-row items-center  w-full">
       <div className="px-6 pb-14 py-7 min-w-[360px] bg-white rounded-xl text-black space-y-5">
         <p className="italic text-black text-base font-semibold">SMART MONEY</p>
         <p className="text-3xl font-grotesk leading-7 font-semibold pt-5">

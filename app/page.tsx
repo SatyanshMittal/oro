@@ -7,7 +7,7 @@ import Footer from '@/components/Footer'
 
 export default function page() {
   return (
-    <div className='bg-[#0A0E1E] px-10'>
+    <div className='bg-[#0A0E1E] sm:px-10 px-3 w-full overflow-hidden'>
       <Hero/>
       <Benefits/>
       <EarlyAccess/>      

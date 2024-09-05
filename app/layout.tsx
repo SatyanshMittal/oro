@@ -42,8 +42,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${jost.variable} ${grotesk.variable} ${schgrotesk.variable}`}>{children}
-      <Footer/></body>
+      <body className={`${inter.variable} ${jost.variable} ${grotesk.variable} ${schgrotesk.variable}`}>
+        {children}
+      <Footer/>
+      </body>
     </html>
   );
 }

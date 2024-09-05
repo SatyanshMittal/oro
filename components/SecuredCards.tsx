@@ -11,8 +11,8 @@ import Marquee from "react-fast-marquee";
 export default function SecuredCards() {
   return (
     <Marquee>
-    <div className="flex   w-full font-grotesk">
-      <div className="px-6 pb-14 mx-2 relative min-h-[230px] overflow-hidden py-7 min-w-[360px] bg-white rounded-xl text-black space-y-5">
+    <div className="flex   sm:w-full font-grotesk">
+      <div className="px-6 pb-14 mx-2 relative min-h-[230px] overflow-hidden py-7 min-w-[320px] sm:min-w-[360px] bg-white rounded-xl text-black space-y-5">
       <div className=" size-56 rounded-full flex -right-12 -top-12 absolute justify-center items-center border border-[#11253E] border-opacity-15">
         <div className="size-36 rounded-full  border-[#11253E] border-opacity-15 border"/>
         </div>
@@ -24,7 +24,7 @@ export default function SecuredCards() {
       </div>
 
 
-      <div className="px-6 pb-14 mx-2 relative min-h-[230px] overflow-hidden py-7 min-w-[360px] bg-gradient-to-r from-[#CFAF6C] to-[#F7DA9C] rounded-xl text-black space-y-5">
+      <div className="px-6 pb-14 mx-2 relative min-h-[230px] overflow-hidden py-7 min-w-[320px] sm:min-w-[360px] bg-gradient-to-r from-[#CFAF6C] to-[#F7DA9C] rounded-xl text-black space-y-5">
       <div className=" size-56 rounded-full flex -right-12 -top-12 absolute justify-center items-center border border-[#11253E] border-opacity-15 ">
         <div className="size-36 rounded-full   border-[#11253E] border-opacity-15 border"/>
         </div>
@@ -38,7 +38,7 @@ export default function SecuredCards() {
       </div>
 
 
-      <div className="px-6 pb-14 mx-2 relative min-h-[230px] overflow-hidden py-7 min-w-[360px] bg-white rounded-xl text-black space-y-5">
+      <div className="px-6 pb-14 mx-2 relative min-h-[230px] overflow-hidden py-7 min-w-[320px] sm:min-w-[360px] bg-white rounded-xl text-black space-y-5">
       <div className=" size-56 rounded-full flex -right-12 -top-12 absolute justify-center items-center border border-[#11253E] border-opacity-15">
         <div className="size-36 rounded-full  border-[#11253E] border-opacity-15 border gap-9"/>
         </div>
@@ -51,7 +51,7 @@ export default function SecuredCards() {
       </div>
 
 
-      <div className="px-6 pb-14 mx-2 relative overflow-hidden min-h-[230px] py-7 min-w-[360px]  bg-gradient-to-r from-[#CFAF6C] to-[#F7DA9C] rounded-xl text-black space-y-5">
+      <div className="px-6 pb-14 mx-2 relative overflow-hidden min-h-[230px] py-7 min-w-[320px] sm:min-w-[360px]  bg-gradient-to-r from-[#CFAF6C] to-[#F7DA9C] rounded-xl text-black space-y-5">
       <div className=" size-56 rounded-full flex -right-12 -top-12 absolute justify-center items-center border border-[#11253E] border-opacity-15">
         <div className="size-36 rounded-full  border-[#11253E] border-opacity-15 border"/>
         </div>
