@@ -20,7 +20,7 @@ export default function Navbar() {
       </div>
 
       <div className="px-8  font-jost py-2 rounded-full bg-white text-black bg-gradient-to-r from-[#CFAF6C] to-[#F7DA9C] text-lg">
-      Get Early Access
+      <a href="https://www.iown.xyz/early-access">Get Early Access</a>
     </div>
 
       

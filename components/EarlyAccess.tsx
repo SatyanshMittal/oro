@@ -14,7 +14,7 @@ export default function EarlyAccess() {
             like <br />
             never before
           </p>
-          <button className="border px-2 text-[14px] w-[70%] mt-1 py-[7px] rounded-full text-[#CFAF6C] border-[#CFAF6C] hover:bg-[#CFAF6C] hover:text-black hover:font-semibold transition-all duration-500  ">Get Early Access</button>
+          <button className="border px-2 text-[14px] w-[70%] mt-1 py-[7px] rounded-full text-[#CFAF6C] border-[#CFAF6C] hover:bg-[#CFAF6C] hover:text-black hover:font-semibold transition-all duration-500  "><a href="https://www.iown.xyz/early-access">Get Early Access</a></button>
         </div>
             <div className='w-full overflow-x-scroll no-scrollbar'>
             <SecuredCards/>

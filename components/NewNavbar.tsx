@@ -20,7 +20,7 @@ export default function NewNavbar() {
         </div>
         <div className="flex md:order-2  md:space-x-3 rtl:space-x-reverse">
         <button className="px-5 sm:px-8 mr-2   font-jost py-2 rounded-full bg-white text-black bg-gradient-to-r from-[#CFAF6C] to-[#F7DA9C] sm:text-lg">
-      Get Early Access
+        <a href="https://www.iown.xyz/early-access">Get Early Access</a>
     </button>
           <button
             type="button"
