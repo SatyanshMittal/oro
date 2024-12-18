@@ -32,7 +32,7 @@ export default function Hero({ benefitsRef }) {
           <div className="flex gap-6 mt-5 items-center scale-90 sm:scale-100">
             <Button text={"Why ORO?"} onClick={scrollToBenefits} />
             <p className="underline font-jost text-[22px] text-white/90 scale-90 sm:scale-100 ">
-              Security
+              
             </p>
           </div>
         </div>
