@@ -14,7 +14,7 @@ export default function Footer() {
 
         </div>
 
-        <p className='text-[3vw] sm:text-base mt-4 sm:mt-0'>usman@orogold.app</p>
+        <p className='text-[3vw] sm:text-base mt-4 sm:mt-0'>info@orogold.app</p>
     </div>
   )
 }

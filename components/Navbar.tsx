@@ -14,9 +14,9 @@ export default function Navbar() {
       </div>
 
       <div className='flex gap-6 text-xl font-extralight opacity-90 mr-60'>
-        <p>About Us</p>
+        {/* <p>About Us</p>
         <p>Features</p>
-        <p>Contact Us</p>
+        <p>Contact Us</p> */}
       </div>
 
       <div className="px-8  font-jost py-2 rounded-full bg-white text-black bg-gradient-to-r from-[#CFAF6C] to-[#F7DA9C] text-lg">
